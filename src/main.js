@@ -1,3 +1,4 @@
+import "./style.css";
 let counter = 1;
 let taskNameInput = document.getElementById("taskName");
 
