@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To Do</title>
+    <link rel="stylesheet" href="src/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  </head>
+  <body>
+    <h1 class="center">To Do</h1>
+    <div class="top_container">
+      <div class="column">
+        <form class="center" onsubmit="addTask(event)">
+          <label for="#taskName">Add a task:</label><br />
+          <input id="taskName" type="text" value="" /><br />
+          <button id="submit">Add Task</button>
+        </form>
+        <h1 class="todo center">To Do</h1>
+        <ol type="1"></ol>
+      </div>
+    </div>
+    <script src="src/main.js"></script>
+  </body>
+</html>
