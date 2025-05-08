@@ -63,3 +63,5 @@ function deleteItem(id) {
   let elementToDelete = document.querySelector(`.licontainer-${id}`);
   elementToDelete.remove();
 }
+
+window.addTask = addTask;
